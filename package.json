@@ -1,0 +1,25 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "My react app",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "wprun": "./node_modules/.bin/webpack",
+    "wpwatch": "./node_modules/.bin/webpack --watch",
+    "wpserver": "./node_modules/.bin/webpack-dev-server --content-base ./static --port 5000"
+  },
+  "dependencies": {
+    "react": "^15.4.0-rc.4",
+    "react-dom": "^15.4.0-rc.4"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "react-router": "^2.8.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
